@@ -100,14 +100,14 @@ const PokemonCard: React.FC<Props> = ({ pokemon }) => {
             <div className="w-[420px] h-[420px] bg-gray-700 rounded-lg flex items-center justify-center">
               <div className="text-white text-2xl flex flex-col gap-2">
                 <p className="bg-green-600 text-yellow capitalize px-2 rounded-md">
-                  Height:{" "}
+                  Height : {" "}
                   {data?.height &&
-                    formatMeasurement(data.height / 10, "meters")}
+                    formatMeasurement(data.height / 10, "Metres")}
                 </p>
-                <p className="bg-blue-800 px-2 rounded-md">
-                  Weight:{" "}
+                <p className="bg-pink-500 px-2 rounded-md">
+                  Weight : {" "}
                   {data?.weight &&
-                    formatMeasurement(data.weight / 10, "meters")}
+                    formatMeasurement(data.weight / 10, "Pounds")}
                 </p>
                 <div className="flex flex-col text-center">
                   <h3 className="font-bold text-xl underline">Abilities</h3>
